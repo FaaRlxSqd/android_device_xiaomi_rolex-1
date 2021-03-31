@@ -418,6 +418,12 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.0-service.basic
 
+# Pristine
+ifeq ($(PRISTINE_BUILD),true)
+PRODUCT_PACKAGES += \
+    DefaultDialerOverlay
+endif
+
 # Vibrator
 PRODUCT_PACKAGES += \
     android.hardware.vibrator@1.0-impl:64 \
