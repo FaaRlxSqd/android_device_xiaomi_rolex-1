@@ -20,15 +20,15 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_m.mk)
 
-# Inherit some common Pixel Experience stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common StagOS stuff
+$(call inherit-product, vendor/stag/main.mk)
 
-TARGET_BOOT_ANIMATION_RES := 720
+TARGET_SCREEN_RES := 720
 
 TARGET_OPT_OUT_GCAM_GO := true
 
 # Modify Codename in ZIP
-WAVE_BUILD := rolex-riva
+STAG_BUILD := rolex-riva
 
 # Inherit from rolex device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -37,7 +37,7 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 4A
 PRODUCT_DEVICE := rolex
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_NAME := lineage_rolex
+PRODUCT_NAME := stag_rolex
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
