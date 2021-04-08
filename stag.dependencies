@@ -2,5 +2,23 @@
   {
     "repository": "android_hardware_sony_timekeep",
     "target_path": "hardware/sony/timekeep"
+  },
+   {
+    "remote":      "stag",
+    "repository":  "android_hardware_qcom_audio",
+    "target_path": "hardware/qcom-caf/msm8996-r/audio",
+    "branch":      "r11-caf-8996"
+  }, 
+  {
+    "remote":      "stag",
+    "repository":  "android_hardware_qcom_media",
+    "target_path": "hardware/qcom-caf/msm8996-r/media",
+    "branch":      "r11-caf-8996"
+  },
+  {
+    "remote":      "stag",
+    "repository":  "android_hardware_qcom_display",
+    "target_path": "hardware/qcom-caf/msm8996-r/display",
+    "branch":      "r11-caf-8996"
   }
 ]
