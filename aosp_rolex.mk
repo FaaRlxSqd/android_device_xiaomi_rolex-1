@@ -27,6 +27,8 @@ TARGET_BOOT_ANIMATION_RES := 720
 
 TARGET_OPT_OUT_GCAM_GO := true
 
+TARGET_INCLUDE_LIVE_WALLPAPERS := false
+
 # Modify Codename in ZIP
 AOSP_BUILD := rolex-riva
 
