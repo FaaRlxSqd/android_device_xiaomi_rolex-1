@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/evolution_rolex.mk
+    $(LOCAL_DIR)/komodo_rolex.mk
 
 COMMON_LUNCH_CHOICES := \
-    evolution_rolex-user \
-    evolution_rolex-userdebug \
-    evolution_rolex-eng
+    komodo_rolex-user \
+    komodo_rolex-userdebug \
+    komodo_rolex-eng
